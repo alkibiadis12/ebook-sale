@@ -35,7 +35,7 @@
 </script>
 
 <section
-	class="container overflow-hidden py-10 text-center md:mx-auto lg:pb-24 lg:pt-36 lg:text-start xl:px-5"
+	class=" container overflow-x-hidden py-10 text-center md:mx-auto lg:pb-24 lg:pt-36 lg:text-start xl:px-5"
 >
 	<h2 class="mb-5 font-anton text-4xl xl:text-5xl">Frequently asked questions</h2>
 	<ul class="mt-14">

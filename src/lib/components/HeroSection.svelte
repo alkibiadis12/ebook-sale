@@ -4,19 +4,23 @@
 	import Button from '$components/Button.svelte';
 </script>
 
-<section class="grid overflow-hidden lg:h-screen lg:grid-cols-2">
+<section
+	class="grid overflow-x-hidden pb-10 lg:grid-cols-2 lg:pb-0 xl:h-screen 2xl:overflow-hidden"
+>
 	<div class="hero-left pb-10 pt-10 lg:pb-0">
 		<div class="text-center font-anton">
-			<h1 class=" text-8xl text-indigo-900">MOVE TO <span class="block">SPAIN</span></h1>
+			<h1 class=" text-8xl text-indigo-900 2xl:text-9xl">
+				MOVE TO <span class="block">SPAIN</span>
+			</h1>
 			<h4 class="mt-6 text-lg italic">There is no need to make the same mistakes I made</h4>
 		</div>
-		<div class="mt-24 flex size-64 md:mx-auto md:size-80 lg:mx-0 lg:size-auto lg:justify-center">
-			<img
-				class="md:mr-[-60px] lg:mr-[-110px] lg:object-none"
-				src={phoneCover}
-				alt="book cover inside a phone screen"
-			/>
-			<img class="lg:object-none" src={bookCover} alt="physical book cover" />
+		<div class=" mt-24 grid grid-cols-2 place-items-center px-20">
+			<div class="2xl:mr-[-5rem]">
+				<img class="" src={phoneCover} alt="book cover inside a phone screen" />
+			</div>
+			<div class="2xl:ml-[-15rem]">
+				<img class="" src={bookCover} alt="physical book cover" />
+			</div>
 		</div>
 	</div>
 	<div class="bg-black pb-10 pt-10 text-center font-anton lg:pb-0">
