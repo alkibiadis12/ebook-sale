@@ -52,7 +52,7 @@
 </script>
 
 <section
-	class="container mx-auto justify-items-center pb-10 pt-10 lg:grid lg:h-screen lg:grid-cols-2 lg:pb-0 lg:pt-36"
+	class="container mx-auto justify-items-center overflow-hidden pb-10 pt-10 lg:grid lg:h-screen lg:grid-cols-2 lg:pb-0 lg:pt-36"
 >
 	<div class="font-anton">
 		<h2 class="text-center text-4xl md:text-5xl lg:text-start">What you' re getting</h2>

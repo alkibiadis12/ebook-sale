@@ -2,7 +2,7 @@
 	import authorPic from '$assets/profile.jpg';
 </script>
 
-<section class="py-10 md:py-14 lg:h-screen lg:pb-0 lg:pt-36">
+<section class="overflow-hidden py-10 md:py-14 lg:h-screen lg:pb-0 lg:pt-36">
 	<div class="container mx-auto grid-cols-2 justify-items-center md:grid">
 		<div class="mb-5 flex flex-col items-center md:mb-0 md:block">
 			<h2 class="font-anton text-4xl xl:text-5xl">About the author</h2>

@@ -2,7 +2,7 @@
 	import Button from '$components/Button.svelte';
 </script>
 
-<section class=" h-screen bg-black">
+<section class=" h-screen overflow-hidden bg-black">
 	<div class=" container mx-auto flex flex-col items-center gap-10 pt-10 text-center font-anton">
 		<h1 class="text-5xl uppercase text-white lg:text-8xl">
 			The payment failed!<span class="block">Please Try again!</span>
