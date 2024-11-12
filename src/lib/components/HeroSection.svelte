@@ -4,9 +4,7 @@
 	import Button from '$components/Button.svelte';
 </script>
 
-<section
-	class="grid overflow-x-hidden pb-10 lg:grid-cols-2 lg:pb-0 xl:h-screen 2xl:overflow-hidden"
->
+<section class="grid overflow-x-hidden pb-10 lg:grid-cols-2 lg:pb-0 xl:h-screen xl:overflow-hidden">
 	<div class="hero-left pb-10 pt-10 lg:pb-0">
 		<div class="text-center font-anton">
 			<h1 class=" text-8xl text-indigo-900 2xl:text-9xl">
@@ -14,13 +12,13 @@
 			</h1>
 			<h4 class="mt-6 text-lg italic">There is no need to make the same mistakes I made</h4>
 		</div>
-		<div class=" mt-24 grid grid-cols-2 place-items-center px-20">
-			<div class="2xl:mr-[-5rem]">
-				<img class="" src={phoneCover} alt="book cover inside a phone screen" />
-			</div>
-			<div class="2xl:ml-[-15rem]">
-				<img class="" src={bookCover} alt="physical book cover" />
-			</div>
+		<div class="mt-10 flex items-center justify-center">
+			<img
+				class="mr-[-4rem] w-1/3 object-cover md:mr-[-7rem] md:w-1/3"
+				src={phoneCover}
+				alt="book cover inside a phone screen"
+			/>
+			<img class="w-5/6 object-cover md:w-2/3" src={bookCover} alt="physical book cover" />
 		</div>
 	</div>
 	<div class="bg-black pb-10 pt-10 text-center font-anton lg:pb-0">
