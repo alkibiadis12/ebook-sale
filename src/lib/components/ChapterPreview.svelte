@@ -80,7 +80,9 @@
 	</div>
 	<div class="mt-10 grid place-items-center lg:mt-20 lg:block lg:justify-self-start">
 		<h3 class="px-7 font-anton text-lg italic lg:px-0">{title}</h3>
-		<p class="mt-3 max-w-xs font-sans leading-7 tracking-wide md:max-w-lg 2xl:max-w-xl">
+		<p
+			class="mt-3 max-w-xs font-sans text-sm leading-7 tracking-wide md:max-w-lg md:text-lg 2xl:max-w-xl"
+		>
 			{text}
 		</p>
 	</div>

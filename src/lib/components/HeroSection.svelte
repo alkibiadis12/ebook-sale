@@ -25,7 +25,7 @@
 			<span class="block">time & nerves</span>
 		</h1>
 		<p
-			class="mx-auto mt-6 max-w-xs font-sans text-lg leading-7 tracking-wide text-gray-300 md:max-w-md xl:max-w-xl 2xl:max-w-2xl"
+			class="mx-auto mt-6 max-w-xs font-sans text-sm leading-7 tracking-wide text-gray-300 md:max-w-md md:text-lg xl:max-w-xl 2xl:max-w-2xl"
 		>
 			I moved to Spain seven years ago. The process was painful and difficult. I learned most things
 			the hard way: finding a job, getting a visa, calculating my cost of living, choosing an

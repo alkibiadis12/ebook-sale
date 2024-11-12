@@ -6,7 +6,7 @@
 	<div class="container mx-auto grid-cols-2 justify-items-center md:grid">
 		<div class="mb-5 flex flex-col items-center md:mb-0 md:block">
 			<h2 class="font-anton text-4xl xl:text-5xl">About the author</h2>
-			<div class="max-w-xs font-sans leading-7 tracking-wide xl:max-w-xl">
+			<div class="max-w-xs font-sans text-sm leading-7 tracking-wide md:text-lg xl:max-w-xl">
 				<p class="mt-10">
 					Alkiviads Spyridopoulos is a seasoned expatriate with over seven years of experience
 					living in Spain. Originally from New York, John left behind the hustle of corporate

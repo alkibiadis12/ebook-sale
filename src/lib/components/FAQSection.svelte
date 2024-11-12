@@ -61,7 +61,7 @@
 				</button>
 				<p
 					class:hidden={!selectedQuestion[index]}
-					class="mt-3 max-w-sm font-sans leading-7 tracking-wide lg:max-w-6xl"
+					class="mt-3 max-w-sm font-sans text-sm leading-7 tracking-wide md:text-lg lg:max-w-6xl"
 				>
 					{faq.answer}
 				</p>
