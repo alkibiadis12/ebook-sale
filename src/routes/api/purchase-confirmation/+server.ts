@@ -15,10 +15,6 @@ export async function POST({ request }: RequestEvent) {
 		const signature = request.headers.get('stripe-signature') || '';
 		const body = await request.text();
 
-		console.log(signature);
-		console.log(body);
-		console.log(STRIPE_CHECKOUT_SESSION_COMPLETE);
-
 		//verify signature
 		const event = stripe.webhooks.constructEvent(body, signature, STRIPE_CHECKOUT_SESSION_COMPLETE);
 
@@ -60,6 +56,8 @@ export async function POST({ request }: RequestEvent) {
 					}
 				]
 			};
+
+			console.log('I AM HEREEE');
 
 			await sgMail.send(message);
 			return json({ response: 'Email sent' });
