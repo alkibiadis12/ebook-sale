@@ -63,7 +63,7 @@ export async function POST({ request }: RequestEvent) {
 			return json({ response: 'Email sent' });
 		}
 	} catch (err) {
-		console.error(`⚠️  Webhook signature verification failed.`, (err as Error).message);
+		console.error((err as Error).message);
 		return new Response(`Webhook Error: ${(err as Error).message}`, { status: 400 });
 	}
 }
